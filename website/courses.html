@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Courses</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr{
+  background-color: #dddddd;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Courses</h2>
+</header>
+
+<section>
+  <nav>
+	  <h2>List of Courses</h2>
+    <ul>
+	    <b>CCNA Routing and Switching</b><br>
+	    <b>CCNP Routing and Switching</b><br>
+	    <b>Python</b><br>
+	    <b>C</b><br>
+	    <b>PHP</b><br>
+	    <b>Linux Administration</b><br>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Training Plan</h1>	  
+    <center><p style="background-color:black;color:white;">CCNA Training Fee and Duration</p></center>
+    <table>
+	    
+	    <tr>
+		    <td>Track</td>
+		    <td style="background-color:white;">Regular Track</td>
+		    <td style="background-color:white;">Weekend Track</td>
+	    </tr>
+	    <tr>
+		    <td>Duration</td>
+		    <td style="background-color:white;">40-45 Days</td>
+		    <td style="background-color:white;">8 weekends</td>
+	    </tr>
+	    <tr>
+		    <td>Hours</td>
+		    <td style="background-color:white;">2 hours a day</td>
+		    <td style="background-color:white;">3 hours a day</td>
+	    </tr>
+	    <tr>
+		    <td>Training fee</td>
+		    <td style="background-color:white;">Rs 5,000/-</td>
+		    <td style="background-color:white;">Rs 5,000/-</td>
+	    </tr>
+    </table>
+    <center><p style="background-color:black;color:white;">CCNP Training Fee and Duration</p></center>
+    <table>
+	    <tr>
+		    <td>Track</td>
+		    <td style="background-color:white;">Regular Track</td>
+		    <td style="background-color:white;">Weekend Track</td>
+	    </tr>
+	    <tr>
+		    <td>Duration</td>
+		    <td style="background-color:white;">3 Months</td>
+		    <td style="background-color:white;">4 Months</td>
+	    </tr>
+	    <tr>
+		    <td>Hours</td>
+		    <td style="background-color:white;">2 Hours a Day</td>
+		    <td style="background-color:white;">3-4 Hours a Day</td>
+	    </tr>
+	    <tr>
+		    <td>Training Fee</td>
+		    <td style="background-color:white;">Rs 20,000/-</td>
+		    <td style="background-color:white;">Rs 20,000/-</td>
+	    </tr>
+    </table>
+    <center><p style="background-color:black;color:white;">Python Training Fee and Duration</p></center>
+    <table>
+	    <tr>
+		    <td>Track</td>
+		    <td style="background-color:white;">Regular Track</td>
+		    <td style="background-color:white;">Weekend Track</td>
+	    </tr>
+	    <tr>
+		    <td>Duration</td>
+		    <td style="background-color:white;">40-45 days</td>
+		    <td style="background-color:white;">8 weekends</td>
+	    </tr>
+	    <tr>
+		    <td>Hours</td>
+		    <td style="background-color:white;">2 hours a day</td>
+		    <td style="background-color:white;">3-4 hours a day</td>
+	    </tr>
+	    <tr>
+		    <td>Training Fee</td>
+		    <td style="background-color:white;">Rs 4,000/-</td>
+		    <td style="background-color:white;">Rs 4,000/-</td>
+            </tr>
+    </table>
+    <center><p style="background-color:black;color:white;">C Language Training fee and Duration</p></center>
+     <table>
+
+	    <tr>
+		    <td>Track</td>
+		    <td style="background-color:white;">Regular Track</td>
+		    <td style="background-color:white;">Weekend Track</td>
+	    </tr>
+	    <tr>
+		    <td>Duration</td>
+		    <td style="background-color:white;">40-45 Days</td>
+		    <td style="background-color:white;">8 weekends</td>
+	    </tr>
+	    <tr>
+		    <td>Hours</td>
+		    <td style="background-color:white;">2 hours a day</td>
+		    <td style="background-color:white;">3 hours a day</td>
+	    </tr>
+	    <tr>
+		    <td>Training fee</td>
+		    <td style="background-color:white;">Rs 3,000/-</td>
+		    <td style="background-color:white;">Rs 3,000/-</td>
+	    </tr>
+    </table>
+    <center><p style="background-color:black;color:white;">PHP Training Fee and Duration</p></center>
+     <table>
+	    <tr>
+		    <td>Track</td>
+		    <td style="background-color:white;">Regular Track</td>
+		    <td style="background-color:white;">Weekend Track</td>
+	    </tr>
+	    <tr>
+		    <td>Duration</td>
+		    <td style="background-color:white;">40-45 Days</td>
+		    <td style="background-color:white;">8 weekends</td>
+	    </tr>
+	    <tr>
+		    <td>Hours</td>
+		    <td style="background-color:white;">2 Hours a Day</td>
+		    <td style="background-color:white;">3-4 Hours a Day</td>
+	    </tr>
+	    <tr>
+		    <td>Training Fee</td>
+		    <td style="background-color:white;">Rs 5,000/-</td>
+		    <td style="background-color:white;">Rs 5,000/-</td>
+	    </tr>
+    </table>
+    <center><p style="background-color:black;color:white;">Linux Administration Fee and Duration</p></center>
+    <table>
+	    <tr>
+		    <td>Track</td>
+		    <td style="background-color:white;">Regular Track</td>
+		    <td style="background-color:white;">Weekend Track</td>
+	    </tr>
+	    <tr>
+		    <td>Duration</td>
+		    <td style="background-color:white;">40-45 Days</td>
+		    <td style="background-color:white;">8  weekends</td>
+	    </tr>
+	    <tr>
+		    <td>Hours</td>
+		    <td style="background-color:white;">2 Hours a Day</td>
+		    <td style="background-color:white;">3-4 Hours a Day</td>
+	    </tr>
+	    <tr>
+		    <td>Training Fee</td>
+		    <td style="background-color:white;">Rs 5,000/-</td>
+		    <td style="background-color:white;">Rs 5,000/-</td>
+	    </tr>
+    </table>
+
+
+
+
+
+
+  </article>
+</section>
+
+<footer>
+	<a href="index.html">Home</a>
+</footer>
+</body>
+</html>
+

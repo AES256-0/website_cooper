@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+ 
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+	<h2>About company and its Members</h2>
+</header>
+
+<section>
+  <nav>
+    <h4>About Company</h4>
+  </nav>
+  
+  <article>
+    <h1>Leaders</h1>
+    <div style="background-color:grey;">
+    <center><img src="images/shikhar.jpg" height="200" width="180"> </img></center>
+    <div style="background-color:black;color:white;">
+    <center><b>Shikhar Johari</b></center>	    
+    <center><b>Founder & Chief Financial Officer</b></center>
+    <center><b>(CFO)</b></center>
+    </div>
+    </div>
+    <div style="background-color:grey;">
+    <center><img src="images/aditya.jpg" height="200" width="180"> </img></center>
+    <div style="background-color:black;color:white;">
+    <center><b>Aditya Chauhan</b></center>    
+    <center><b>Founder & Senior Human Resource Manager</b></center>
+    <center><b>(senior HR)</b></center>
+    </div>
+    </div>
+
+  </article>  
+ 
+
+
+
+</section>
+
+<footer>
+	<h3><a href="index.html">HOME</a></h3>
+
+
+
+</body>
+</html>
+
